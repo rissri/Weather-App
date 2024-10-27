@@ -3,38 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Playwrite+FR+Moderne:wght@100..400&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <header></header>
-    <form>
-      <input type="search" placeholder="Enter the city..." required />
-      <input type="submit" value="Search" />
-    </form>
+    <div class="weather_app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter the city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>London</h1>
+          <p>
+            Tuesday 15:00, Scattered Clouds
+            <br />
+            Humidity: 66%, Wind: 3.13 km/h
+          </p>
+        </div>
+        <div>🌤 12°C</div>
+      </main>
 
-    <main>
-      <div>
-        <h1>London</h1>
-        <p>
-          Tuesday 15:00, Scattered Clouds
-          <br />
-          Humidity: 66%, Wind: 3.13 km/h
-        </p>
-      </div>
-      <div>🌤 12°C</div>
-    </main>
-
-    <footer>
-      This project was coded by
-      <a href="https://github.com/rissri" target="_blank"> Kasia Ptaszynska</a>
-      is
-      <a href="https://github.com/rissri/Weather-App" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and
-      <a href="https://pogoda-shecodes.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/rissri" target="_blank">
+          Kasia Ptaszynska</a
+        >
+        is
+        <a href="https://github.com/rissri/Weather-App" target="_blank">
+          open-sourced on GitHub</a
+        >
+        and
+        <a href="https://pogoda-shecodes.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

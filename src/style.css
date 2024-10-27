@@ -1,0 +1,20 @@
+body {
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
+  font-family: "Playwrite FR Moderne", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.weather_app {
+  background-color: #fafafa;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
+}
