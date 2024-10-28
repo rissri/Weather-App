@@ -74,8 +74,10 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   margin: auto;
-  font-size: 35px;
+  font-size: 55px;
   line-height: 75px;
+  font-family: "Cherry Bomb One", system-ui;
+  color: #087a75;
 }
 
 .weather-app-data {
@@ -106,7 +108,7 @@ main {
 
 .weather-app-details strong {
   color: #087a75;
-  font-style: italic;
+
   font-weight: 300;
 }
 .weather-app-temp-container {
