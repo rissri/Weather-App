@@ -71,7 +71,6 @@ header {
 }
 
 .weather-app-city {
-  text-transform: uppercase;
   font-weight: bold;
   margin: auto;
   font-size: 55px;
