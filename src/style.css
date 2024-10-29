@@ -125,6 +125,8 @@ main {
   font-size: 44px;
   margin-top: 22px;
   color: #087a75;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-unit {
