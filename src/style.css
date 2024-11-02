@@ -1,34 +1,31 @@
 body {
-  background: linear-gradient(
-    0.6deg,
-    rgb(17, 151, 147) 11.2%,
-    rgb(154, 214, 212) 55.4%,
-    rgb(255, 233, 171) 100.2%
-  );
-
-  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
   font-family: "Playwrite FR Moderne", serif;
   font-optical-sizing: auto;
   font-weight: 450;
   font-style: normal;
+  background-image: url(vecteezy_abstract-background-design-background-texture-design-with_18752867-1.jpg);
+  background-repeat: none;
+  display: flex;
+  background-size: cover;
+  object-fit: cover;
 }
 
 a {
-  color: #808891;
+  color: #ced4db;
 }
 .weather_app {
-  background: radial-gradient(
-    circle at 0% 15%,
-    rgb(172, 184, 196) 0.1%,
-    rgb(200, 200, 201) 100.2%,
-    opacity 0.5
-  );
+  background: rgb(200, 200, 201), opacity 0.7;
   max-width: 800px;
   margin: 30px auto;
   padding: 50px;
   border-radius: 15px;
 
   box-shadow: rgba(43, 33, 66, 0.09) 0px 70px 70px 0px;
+  backdrop-filter: blur(7px);
 }
 
 header {
@@ -76,7 +73,7 @@ header {
   font-size: 55px;
   line-height: 75px;
   font-family: "Cherry Bomb One", system-ui;
-  color: #087a75;
+  color: #08437a;
 }
 
 .weather-app-data {
@@ -106,7 +103,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #087a75;
+  color: #08437a;
 
   font-weight: 300;
 }
@@ -118,7 +115,7 @@ main {
   font-size: 88px;
   font-weight: bold;
   margin-left: 10px;
-  color: #087a75;
+  color: #08437a;
 }
 
 .weather-app-icon {
@@ -132,5 +129,5 @@ main {
 .weather-app-unit {
   margin-top: 18px;
   font-size: 40px;
-  color: #087a75;
+  color: #08437a;
 }
