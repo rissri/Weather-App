@@ -97,7 +97,7 @@ main {
   font-family: "Kalam", cursive;
   font-weight: 400;
   font-style: bold;
-  color: #ffffff;
+  color: #a0bbd6;
   line-height: 20px;
   font-size: 18px;
 }
@@ -130,4 +130,28 @@ main {
   margin-top: 18px;
   font-size: 40px;
   color: #08437a;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: #a0bbd6;
+  font-size: 16px;
+  line-height: 20px;
+}
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #a0bbd6;
+  font-style: bold;
+  display: flex;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
