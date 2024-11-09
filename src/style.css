@@ -109,10 +109,11 @@ main {
 }
 .weather-app-temp-container {
   display: flex;
+  margin: 20px;
 }
 
 .weather-app-temp {
-  font-size: 88px;
+  font-size: 66px;
   font-weight: bold;
   margin-left: 10px;
   color: #08437a;
@@ -134,6 +135,7 @@ main {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
+  margin: 10px;
 }
 
 .weather-forecast-date {
@@ -143,15 +145,18 @@ main {
   line-height: 20px;
 }
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
   color: #a0bbd6;
   font-style: bold;
   display: flex;
+  font-size: 12px;
 }
 .weather-forecast-temperature {
-  padding: 0 10px;
+  padding: 0 4px;
 }
